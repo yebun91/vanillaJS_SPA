@@ -1,4 +1,4 @@
-import SelectedLanguages from "./SelectedLanguages.js";
+import SelectedLanguage from "./SelectedLanguage.js";
 import SearchInput from "./SearchInput.js";
 import Suggestion from "./Suggestion.js";
 
@@ -20,7 +20,7 @@ export default function App({ $target }) {
     this.render();
   };
 
-  const selectedLanguages = new SelectedLanguages({
+  const selectedLanguage = new SelectedLanguage({
     $target,
     initialState: [],
   });
